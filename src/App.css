@@ -1,33 +1,46 @@
-.App {
-  text-align: center;
+.main {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.selectableArea {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150px;
+  border: solid 1px black;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+  background-color: #66cdaa;
+  border: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selectedArea {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.draggable {
+  display: flex;
+  text-align: center;
+  background-color: #66cdaa;
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+}
+.nameArea {
+  width: 750px;
+  height: 50px;
+}
+
+.unSelect {
+  height: 50px;
+  width: 50px;
 }
